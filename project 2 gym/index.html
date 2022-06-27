@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suman's Fitness Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* css reset */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('img/bg.img.png');
+
+        }
+
+
+        .left {
+            /* border: 2px solid red; */
+            color: white;
+            display: inline block;
+            position: absolute;
+            left: 23px;
+            top: 23px;
+
+        }
+
+        .left a {
+            text-decoration: none;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            width: 90px;
+            height: 63px;
+            direction: none;
+            padding: 12px;
+
+        }
+
+        .logo_p {
+            margin: -4px;
+            color: white;
+            /* direction: none; */
+        }
+
+        .left .logo_p:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .mid {
+            /* border: 2px solid greenyellow; */
+            color: white;
+            display: inline block;
+            position: absolute;
+            left: 437px;
+            top: 23px;
+
+        }
+
+        .mid ul a {
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+
+        }
+
+        .mid ul li {
+            color: white;
+            margin: 12px;
+            text-decoration: none;
+            font-size: 19px;
+        }
+
+        .mid ul li:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            color: white;
+            display: inline block;
+            position: absolute;
+            right: 55px;
+            top: 23px;
+
+        }
+
+        .btn {
+            margin: 23px;
+            padding: 5px 14px;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(63, 54, 54);
+        }
+
+        .contener {
+            color: white;
+            border: 2px solid white;
+            margin: 178px 101px;
+            padding: 75px;
+            border-radius: 18px;
+        }
+
+        .btn1 {
+            margin: 12px;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+        .btn1:hover {
+            background-color: rgb(63, 54, 54);
+        }
+        .from-group input{
+            text-align: center;
+            display: block;
+            width: 509px;
+            padding: 5px;
+            border: 2px solid black;
+            margin: 4px auto;
+            font-size: 19px;
+            border-radius: 8px;
+        }
+        .contener h1{
+            text-align: center;
+        }
+        .contener button{
+            display: block;
+            width: 44%;
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <a href="#">
+                <img class="logo" src="img/logo.png" alt="">
+                <P class="logo_p"> @SUMAN'S GYM</P>
+            </a>
+        </div>
+        <div class="mid">
+            <!-- mod for navber -->
+            <ul class="navber">
+                <a href="#">
+                    <li>HOME</li>
+                    <li>ABOUT US</li>
+                    <li>FITNESS CALCULETER</li>
+                    <li>CONTACT US </li>
+                </a>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- for the mail us -->
+            <a href="Email us">
+                <button class="btn">Follow us</button>
+                <button class="btn">Email us</button>
+            </a>
+
+        </div>
+    </header>
+    <div class="contener">
+        <h1>Join The Best Gym of Bankura Now</h1>
+        <form action="noaction.php">
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Address">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <button class="btn1">Submit</button>
+            <button class="btn1">Reset</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

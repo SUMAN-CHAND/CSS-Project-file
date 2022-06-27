@@ -1,0 +1,90 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+.home{
+    background: url('/img/bg1.jpg');
+    min-height: 550px;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+}
+#head-main{
+    position:sticky;
+    top: 0px;
+}
+
+#header .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 18vh;
+    background-color: black;
+    color: white;
+}
+#header .head .Announcement{
+    padding: 6px;
+    margin: 18px;
+    font-size: 22px;
+    background-color:tomato;
+    border-radius: 22px;
+
+}
+#header .head .para{
+  font-size: 19px;
+ }
+ #header .head a{
+     text-decoration: none;
+     color: white;
+ }
+/*header2 */
+#header2{
+    display: flex;
+    background-color:#eb5757;;
+    max-height:20vh;
+}
+#header2 .logo{
+    display: flex;
+}
+#header2 .logo img{
+    height: 35px;
+    margin: 18px 18px 12px 120px;
+}
+#header2 .logo .logo-name{
+    margin: 25px 0px 28px 0px;
+   color: white;
+    
+}
+/* #header2 .logo .logo-name:hover{
+   background-color: rgb(245, 228, 228);
+   color: black;
+} */
+#header2  a{
+    text-decoration: none;
+}
+#header2 .manu ul{
+    display: flex;
+   list-style: none;
+   position: relative;
+   left: 633px;
+   margin: 16px;
+}
+#header2 .manu ul .list-item{
+padding: 12px 24px;
+font-size: 19px;
+color: white;
+}
+#header2 .manu ul .list-item:hover{
+    background-color: black;
+    border-radius: 12px ;
+    color: white;
+    }
+    /* contener */
+    .contener{
+        /* overflow: hidden; */
+       min-height: 550px;
+        background-position: 0px 0px, 50% 50%;
+        background-size: auto, cover;
+}
+    
